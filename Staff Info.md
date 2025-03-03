@@ -1,0 +1,3 @@
+- Kris Ehinger: kris.ehinger@unimelb.edu.au
+- Basim Azam: bazam@unimelb.edu.au
+- Naveed Akhtar: naveed.akhtar1@unimelb.edu.au
