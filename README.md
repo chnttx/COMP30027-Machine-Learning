@@ -21,3 +21,7 @@
 - **Week 1**: March 3rd - March 7th
 	- Introduction to Machine Learning
 	- Basics of Machine Learning
+- **Week 2**: March 10th - March 14th
+	- Probability
+- **Week 3**: March 17th - March 21st
+	- Naive Bayes
