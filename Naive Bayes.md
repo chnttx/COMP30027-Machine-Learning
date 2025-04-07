@@ -11,7 +11,7 @@
 	- Count all times T has been observed
 - Choose class c with highest frequency of observed T.
 - Very expensive, need to have seen every possible combination of attributes in the training set, ideally at least a few times per class.
-- Solution: Naive Bayes, assume different attributes are statiscally independent, conditional on class. Compute P(c | T) from P(T | c) using Bayes rule.
+- Solution: Naive Bayes, assume different attributes are statistically independent, conditional on class. Compute P(c | T) from P(T | c) using Bayes rule.
 
 ### Bayes Rule
 
@@ -55,3 +55,14 @@ $P(C, X) = P(C | X)P(X) = P(X | C)P(C)$
 
 - At test: can simply be ignored, compute the likelihood of each class from the non-missing values.
 - In training: don't include them in the attribute-class counts, and probabilities will be based on non-missing values.
+
+### Pros
+
+- Simple to build, fast.
+- Computations scale well to high-dimensional datasets (1000s of attributes).
+- Explainable - generally easy to understand why the model makes the decisions it does.
+
+### Cons
+
+- Inaccurate when there are many missing P(x | c) values.
+- Conditional independence assumption becomes problematic for complex systems.
