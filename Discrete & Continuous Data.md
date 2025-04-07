@@ -1,0 +1,1 @@
+- Naive Bayes assumes nominal data. What happens if we have continuous data?
