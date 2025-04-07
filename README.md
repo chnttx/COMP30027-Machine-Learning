@@ -25,3 +25,13 @@
 	- Probability
 - **Week 3**: March 17th - March 21st
 	- Naive Bayes
+	- Discrete and Continuous Data
+- **Week 4**: March 24th - March 28th
+	- Model Evaluation
+	- Evaluation Trees
+- **Week 5**: March 31st - April 4th
+	- Instance-based learning
+	- Support Vector Machines (SVM)
+- **Week 6:** April 7th - April 11th
+	- Interpretation
+	- Linear regression
